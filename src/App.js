@@ -78,7 +78,7 @@ function App() {
 										<li><Link to="/Timeseries">Time-Series</Link></li>
 										</ul>
 							</div>
-							<button className='s' style="float: right;" onClick={() => themeToggler()}>Dark</button>
+							<button className='s'  onClick={() => themeToggler()}>Dark</button>
 							{/* <Button variant="contained" color="primary" checked={darkMode} onClick={()=> setDarkMode(!darkMode)}>Dark</Button> */}
 						<div className="app__body">
 							<div class="">
